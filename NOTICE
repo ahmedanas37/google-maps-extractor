@@ -1,0 +1,16 @@
+This repository is a modified derivative of the Apache License 2.0 project
+originally published at:
+
+https://github.com/LeadGenerationTools/google-maps-extractor
+
+Modifications in this repository include, among other things:
+
+- removal of login, payment, quota, uninstall prompt, and subscription flows
+- UI redesign for popup, dashboard, and injected Maps controls
+- lead deduplication improvements
+- local session history
+- dashboard filtering
+- export workflow refinements
+
+This repository is independently maintained and is not affiliated with or
+endorsed by the original publisher.

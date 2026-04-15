@@ -1,3 +1,4 @@
+<!-- Modified in this repository; see NOTICE for derivative-work details. -->
 <!DOCTYPE html>
 <html>
 
@@ -14,16 +15,60 @@
 
 <body>
     <div id="maincontent">
-        <div id="content">
-            <div style="display: flex; flex-direction: row; gap: 20px;">
-                <div style="display: flex; gap: 20px;">
+        <div id="content" class="dashboard-shell">
+            <header class="dashboard-hero">
+                <div class="dashboard-copy">
+                    <div class="dashboard-badge">Local Export Workspace</div>
+                    <h1>Scraped Leads</h1>
+                    <p>Review the results collected in your browser, then export them in the format you need.</p>
+                </div>
+                <div class="dashboard-actions">
                     <button id="download-csv">Download CSV</button>
                     <button id="download-xlsx">Download XLSX</button>
                 </div>
-                <div><span id="accountinfo" style="font-weight: bold; font-size: 16px;"></span></div>
-            </div>
-            <div><span id="datastatus" style="color: red;"></span></div>
-            <div id="example-table"></div>
+            </header>
+
+            <section class="dashboard-filters">
+                <div class="filter-group filter-group-wide">
+                    <label for="session-select">Session</label>
+                    <select id="session-select"></select>
+                </div>
+                <div class="filter-group filter-group-wide">
+                    <label for="filter-search">Search</label>
+                    <input id="filter-search" type="text" placeholder="Name, address, website, email" />
+                </div>
+                <div class="filter-group filter-group-small">
+                    <label for="filter-min-rating">Min rating</label>
+                    <input id="filter-min-rating" type="number" min="0" max="5" step="0.1" placeholder="4.0" />
+                </div>
+                <div class="filter-group filter-group-small">
+                    <label for="filter-min-reviews">Min reviews</label>
+                    <input id="filter-min-reviews" type="number" min="0" step="1" placeholder="20" />
+                </div>
+                <label class="filter-toggle" for="filter-has-email">
+                    <input id="filter-has-email" type="checkbox" />
+                    <span>Has email</span>
+                </label>
+                <label class="filter-toggle" for="filter-has-website">
+                    <input id="filter-has-website" type="checkbox" />
+                    <span>Has website</span>
+                </label>
+                <button id="clear-filters" class="filter-clear" type="button">Clear filters</button>
+            </section>
+
+            <section class="dashboard-statusbar">
+                <div class="status-card">
+                    <span class="status-label">Export status</span>
+                    <span id="accountinfo"></span>
+                </div>
+                <div class="status-message">
+                    <span id="datastatus"></span>
+                </div>
+            </section>
+
+            <section class="table-shell">
+                <div id="example-table"></div>
+            </section>
         </div>
     </div>
 </body>

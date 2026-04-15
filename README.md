@@ -2,7 +2,7 @@
 
 Free Chrome extension for extracting business leads from Google Maps and exporting them to CSV or XLSX.
 
-This repository is the fully unlocked version of the project. There is no login, subscription, quota, or payment flow in the extension.
+This repository is the fully unlocked public version of the project. There is no login, subscription, quota, uninstall prompt, or payment flow in the extension.
 
 ## Features
 
@@ -85,8 +85,20 @@ To test changes:
 
 ## Release
 
-Current free release: `v2.0.0`
+Current public release: `v2.1.0`
+
+## Open Source Status
+
+This repository is published as open-source software for public use under the Apache 2.0 license included in this repo.
+
+## Provenance
+
+This codebase is a modified derivative of the Apache-2.0 licensed project originally published at:
+
+- `https://github.com/LeadGenerationTools/google-maps-extractor`
+
+This repository removes the original commercial gating and related prompts, and adds local-only workflow improvements, UI refinements, session history, filtering, and deduplication changes.
 
 ## License
 
-This project is distributed under the terms of the [LICENSE](./LICENSE) file in this repository.
+This project is distributed under the terms of the [LICENSE](./LICENSE) file in this repository. See [NOTICE](./NOTICE) for derivative-work attribution and modification notice.

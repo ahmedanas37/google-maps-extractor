@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Google Maps Scraper",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "One click to extract B2B Local leads from Google Maps result pages and export leads  to CSV files.",
     "icons": {
         "16": "icons/icon16.png",
