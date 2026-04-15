@@ -432,18 +432,12 @@
     },
     "web_accessible_resources": [{
         "resources": [
-            "help.html",
-            "auth/pay/*",
-            "dashboard.html",
-            "injected.js",
-            "css/*"
+            "injected.js"
         ],
         "matches": ["<all_urls>"]
     }],
     "permissions": ["storage", "scripting"],
     "host_permissions": [
-        "*://*.productivityimprover.com/",
-        "http://localhost/*",
         "*://*/*"
     ],
     "content_security_policy": {
