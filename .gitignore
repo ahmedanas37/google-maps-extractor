@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor folders
+.idea/
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Node and build artifacts
+node_modules/
+dist/
+build/
+coverage/
+
+# Browser extension packaging
+*.crx
+*.pem
+*.zip
+
+# Environment files
+.env
+.env.*
