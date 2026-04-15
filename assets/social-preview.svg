@@ -1,0 +1,26 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#F3F5F7"/>
+  <rect x="56" y="56" width="1168" height="528" rx="28" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="2"/>
+  <rect x="96" y="96" width="472" height="448" rx="24" fill="#111827"/>
+  <circle cx="164" cy="164" r="18" fill="#F59E0B"/>
+  <circle cx="220" cy="164" r="18" fill="#E5E7EB"/>
+  <circle cx="276" cy="164" r="18" fill="#374151"/>
+  <text x="96" y="258" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="700">Google Maps</text>
+  <text x="96" y="338" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="700">Scraper</text>
+  <text x="96" y="406" fill="#9CA3AF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">Local-first Chrome extension for extracting</text>
+  <text x="96" y="446" fill="#9CA3AF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">Google Maps business leads to CSV or XLSX.</text>
+  <rect x="664" y="108" width="496" height="96" rx="18" fill="#F8FAFC" stroke="#D8DEE6"/>
+  <text x="700" y="150" fill="#6B7280" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">SEARCH</text>
+  <text x="700" y="182" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="600">dentists in chicago</text>
+  <rect x="664" y="228" width="496" height="56" rx="14" fill="#1F2937"/>
+  <text x="822" y="264" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Start Auto Extract</text>
+  <rect x="664" y="308" width="496" height="196" rx="20" fill="#FFFFFF" stroke="#D8DEE6"/>
+  <rect x="688" y="332" width="448" height="38" rx="10" fill="#F8FAFC"/>
+  <rect x="688" y="384" width="448" height="38" rx="10" fill="#F8FAFC"/>
+  <rect x="688" y="436" width="448" height="38" rx="10" fill="#F8FAFC"/>
+  <text x="712" y="356" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">Name, email, website, rating, reviews</text>
+  <text x="712" y="408" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">Deduplicated leads and local session history</text>
+  <text x="712" y="460" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">Export workspace with CSV and XLSX output</text>
+  <rect x="664" y="528" width="220" height="40" rx="12" fill="#111827"/>
+  <text x="718" y="554" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Open Source</text>
+</svg>
